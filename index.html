@@ -1,114 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!--==================== UNICONS ====================-->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!--==================== SWIPER CSS ====================-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-
-    <!--==================== CSS ====================-->
-    <link rel="stylesheet" href="styles.css">
-
-
-    <title>Sikshya Rimal</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <!-- <title>YOUR NAME</title> -->
+  <title>Sandesh Pangeni</title>
 </head>
-<body>
-<!--==================== HEADER ====================-->
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="https://github.com/Strong10mede" target="_blank" class="nav__logo">Sikshya Rimal</a>
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list grid">
-                    <li class="nav__item">
-                        <a href="#home" class="nav__link active-link">
-                            <i class="uil uil-estate nav__icon"></i> Home
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="about.html" class="nav__link">
-                            <i class="uil uil-user nav__icon"></i> About
-                        </a>
-                    </li>
-                   
-                    <li class="nav__item">
-                        <a href="#contact" class="nav__link">
-                            <i class="uil uil-estate nav__icon"></i> Gallery
-                        </a>
-                    </li>
-
-                    <li class="nav__item">
-                        <a href="contact.html" class="nav__link">
-                            <i class="uil uil-estate nav__icon"></i> Contact
-                        </a>
-                    </li>
-                </ul>
-              
+  <body>
+    <nav class="bg-transparent">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+          <div class="flex items-center">
+            <div class="hidden sm:block sm:ml-6">
+              <div class="flex space-x-4">
+                <a href="index.html" class="color-secondary hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                  <span class="text-green-400"></span>
+                  Home
+                </a>
+                <a href="about.html" class="color-secondary hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                  <span class="text-green-400"></span>
+                  About
+                </a>
+                <a href="gallery.html" class="color-secondary hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                  <span class="text-green-400"></span>
+                  Gallery
+                </a>
+                <a href="contact.html" class="color-secondary hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                  <span class="text-green-400"></span>
+                  Contact
+                </a>
+              </div>
             </div>
+            <div class="block sm:hidden">
+              <a href="#home" class="px-3 py-2 rounded-md text-sm font-bold">
+                Home
+              </a>
+            </div>
+          </div>
+          <div class="absolute right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+            <!-- YOUR RESUME LINK HERE -->
+            <a target="_blank" href="w-full flex items-center justify-center text-sm px-4 py-2 border border-green-400 text-green-400 font-medium rounded-md text-white bg-transparent hover:bg-gray-800">
+              Portfolio
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
 
-        
-        </nav>
-    </header>
+    <main class="lg:relative">
+      <section id="home" class="container mx-auto max-w-7xl w-4/5 pt-8 pb-10 lg:py-24 lg:text-left">
+        <div class="px-4 sm:px-8 xl:pr-16">
+          <p class="text-green-400 py-4">Hi, my name is</p>
+          <h1 class="text-4xl tracking-tight font-extrabold sm:text-5xl md:text-6xl lg:text-5xl">
+            <span class="block py-2">
+              <!-- YOUR NAME -->
+              Sandesh Pangeni
+            </span>
+            
+            <span class="block color-secondary py-2">
+              <!-- WHAT YOU DO -->
 
-<!--==================== MAIN ====================-->
-    <main class="main">
-        <!--==================== HOME ====================-->
-        <section class="home section" id="home">
-            <div class="home__container container grid">
-                <div class="home__content grid">
-                    <div class="home__social">
-                        
-                       
-                    </div>
+            </span>
+          </h1>
+          <p class="py-4 text-sm text-gray-400 sm:text-xl md:mt-2 md:max-w-3xl">
+            <!-- YOUR BIO-->
+          I'm a student studying at class-11 Management. I am passionate about cricket. I love Rohit Sharma. My some hobbies are playing cricket, coding and many more.
+          </p>
+         </div>
+         </section>
 
-                    <div class="home__img">
-                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <mask id="mask0" mask-type="alpha">
-                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547
-            130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775
-            97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666
-            0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                            </mask>
-                            <g mask="url(#mask0)">
-                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346
-            165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403
-            129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028
-            -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                                <image class="home__blob-img" x="0" y="0" xlink:href="image2.jpg"/>
-                            </g>
-                        </svg>
-
-                    </div>
-                    <div class="home__data">
-                        <h1 class="home__title">Hello I'm Sikshya Rimal,</h1>
-                        <h3 class="home__subtitle">Student</h3>
-                        <p class="home__description">I'm a Student at Pionner's Higher Academy and I am passionate on my hobbies like dancing, singing and many more.</p>
-                        <a href="contact.html" class="home__button button button--flex">
-                            Contact Me <i class="uil uil-message button__icon"></i>
-                        </a>
-                    </div>
-                </div>
-
-               
-        </section>
-
-       
-    
-
-    <!--==================== SWIPER JS ====================-->
-    <script src="swiper-bundle.min.js"></script>
-
-    <!--====================  FIREBASE SETUP ===============-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
-
-    <!--====================  SCROLL REVEAL JS =============-->
-    <script src="scrollreveal.min.js"></script>
-    
-
-    <!--==================== MAIN JS ====================-->
-    <script src="main.js"></script>
-</body>
+  </body>
 </html>

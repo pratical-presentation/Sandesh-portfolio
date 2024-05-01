@@ -1,200 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css" class="css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <!-- <title>YOUR NAME</title> -->
+  <title>Sandesh Pangeni</title>
 </head>
-<body>
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="https://github.com/Strong10mede" target="_blank" class="nav__logo">Sikshya Rimal</a>
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list grid">
-                    <li class="nav__item">
-                        <a href="index.html" class="nav__link active-link">
-                            <i class="uil uil-estate nav__icon"></i> Home
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="about.html" class="nav__link">
-                            <i class="uil uil-user nav__icon"></i> About
-                        </a>
-                    </li>
-                   
-                    <li class="nav__item">
-                        <a href="gallery.html" class="nav__link">
-                            <i class="uil uil-estate nav__icon"></i> Gallery
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="contact.html" class="nav__link">
-                            <i class="uil uil-estate nav__icon"></i> Contact
-                        </a>
-                    </li>
-                </ul>
-
-              
+  <body>
+    <nav class="bg-transparent">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+          <div class="flex items-center">
+            <div class="hidden sm:block sm:ml-6">
+              <div class="flex space-x-4">
+                <a href="index.html" class="color-secondary hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                  <span class="text-green-400"></span>
+                  Home
+                </a>
+                <a href="about.html" class="color-secondary hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                  <span class="text-green-400"></span>
+                  About
+                </a>
+                <a href="gallery.html" class="color-secondary hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                  <span class="text-green-400"></span>
+                  Gallery
+                </a>
+                <a href="contact.html" class="color-secondary hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                  <span class="text-green-400"></span>
+                  Contact
+                </a>
+              </div>
             </div>
-</nav>
-</header>
-    <section class="contact section" id="contact">
-        <h2 class="section__title">Contact Me</h2>
-        <span class="section__subtitle">Get in touch</span>
-    
-        <div class="contact__container container grid">
-            <div>
-                <div class="contact__information">
-                    <i class="uil uil-phone contact__icon"></i>
-    
-                    <div>
-                        <h3 class="contact__title">Call Me</h3>
-                        <span class="contact__subtitle">9846298217</span>
-                    </div>
-                </div>
-    
-                <div class="contact__information">
-                    <i class="uil uil-envelope contact__icon"></i>
-    
-                    <div>
-                        <h3 class="contact__title">Email</h3>
-                        <span class="contact__subtitle">Shikshyarimal492@gmail.com</span>
-                    </div>
-                </div>
-    
-                <div class="contact__information">
-                    <i class="uil uil-map-marker contact__icon"></i>
-    
-                    <div>
-                        <h3 class="contact__title">Location</h3>
-                        <span class="contact__subtitle">Mirdi</span>
-                    </div>
-                </div>
-    
-               
+            <div class="block sm:hidden">
+              <a href="#home" class="px-3 py-2 rounded-md text-sm font-bold">
+                Home
+              </a>
             </div>
+          </div>
+          <div class="absolute right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+            <!-- YOUR RESUME LINK HERE -->
+            <a target="_blank">
+                Portfolio
+              </a>
+          </div>
         </div>
-    
-    </section>
+      </div>
+    </nav>
+
+          
+      <section id="contact" class="container mx-auto max-w-7xl w-4/5 py-12 lg:py-18 lg:text-left">
+        <div class="px-4 sm:px-8 xl:pr-16">
+          <div class="max-w-2xl mx-auto text-center py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
+            <h2 class="text-xl color-secondary py-8">
+      
+              Contact Me
+            </h2>
+            <h2 class="text-3xl font-extrabold text-white sm:text-4xl">
+              <span class="block">Get in touch.</span>
+            </h2>
+            <p class="mt-4 text-lg leading-6 text-indigo-200">
+              If you are interested to chat with me.Contact me on socia-media
+             </p>
+             <div class="contact-form">
+              <h2>Contact Us</h2>
+              <form>
+                  <div class="form-group">
+                      <label for="name">Name</label>
+                      <input type="text" id="name" name="name" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="email" id="email" name="email" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="dob">Date of Birth</label>
+                      <input type="date" id="dob" name="dob" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="gender">Gender</label>
+                      <select id="gender" name="gender" required>
+                          <option value="">Select Gender</option>
+                          <option value="male">Male</option>
+                          <option value="female">Female</option>
+                          <option value="other">Other</option>
+                      </select>
+                  </div>
+                  <div class="form-group">
+                      <label for="message">Message</label>
+                      <textarea id="message" name="message" rows="5"></textarea>
+                  </div>
+                  <input type="submit" value="Submit">
+              </form>
+          </div>        
+          </div>
+        </div>
+      </section>
     </main>
     
-    <!--==================== FOOTER ====================-->
-    <footer class="footer">
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Form</title>
-    <style>
-    
-    .rimal {
-      max-width: 600px;
-      margin: 50px auto;
-      padding: 20px;
-      background-color: #fff;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    
-    h2 {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-    
-    .form-group {
-      margin-bottom: 20px;
-      color: black;
-    }
-    
-    label {
-      display: block;
-      font-weight: bold;
-    }
-    
-    input[type="text"],
-    input[type="email"],
-    input[type="password"],
-    select,
-    textarea {
-      width: 100%;
-      padding: 8px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-    
-    input[type="submit"] {
-      background-color: #007bff;
-      color: #fff;
-      border: none;
-      padding: 10px 20px;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-    
-    input[type="submit"]:hover {
-      background-color: #0056b3;
-    }
-    
-    .header1{
-        color: black;
-    }
-    </style>
-    </head>
-    <body>
-    
-    <div class="rimal">
-      <h2 class="header1">Contact Us</h2>
-      <form action="#" method="post">
-        <div class="form-group">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required>
-        </div>
-        <div class="form-group">
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required>
-        </div>
-        <div class="form-group">
-          <label for="password">Password:</label>
-          <input type="password" id="password" name="password" required>
-        </div>
-        <div class="form-group">
-          <label for="dob">Date of Birth:</label>
-          <input type="date" id="dob" name="dob" required>
-        </div>
-        <div class="form-group">
-          <label for="gender">Gender:</label>
-          <select id="gender" name="gender" required>
-            <option value="">Select</option>
-            <option value="male">Male</option>
-            <option value="female">Female</option>
-            <option value="other">Other</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="message">Message:</label>
-          <textarea id="message" name="message" rows="4" required></textarea>
-        </div>
-        <div class="form-group">
-          <input type="submit" value="Submit">
-        </div>
-      </form>
-    </div>
-    
-    
-    <!--==================== SWIPER JS ====================-->
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    
-    <!--====================  FIREBASE SETUP ===============-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
-    
-    <!--====================  SCROLL REVEAL JS =============-->
-    <script src="assets/js/scrollreveal.min.js"></script>
-    
-    
-    <!--==================== MAIN JS ====================-->
-    <script src="assets/js/main.js"></script>
-    </body>
-</body>
+    <footer class="py-8">
+      <div class="text-center text-xs text-gray-400">
+      Portfolio Project :
+        <a href="https://github.com/bchiang7/v4" target="_blank">Sandesh pangeni</a>.
+      </div>
+    </footer>
+  </body>
 </html>

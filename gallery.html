@@ -1,90 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portfolio Gallery</title>
-<link rel="stylesheet" href="styles.css" class="css">
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <!-- <title>YOUR NAME</title> -->
+  <title>Sandesh Pangeni</title>
 </head>
-<body>
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="https://github.com/Strong10mede" target="_blank" class="nav__logo">Sikshya Rimal</a>
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list grid">
-                    <li class="nav__item">
-                        <a href="index.html" class="nav__link active-link">
-                            <i class="uil uil-estate nav__icon"></i> Home
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="about.html" class="nav__link">
-                            <i class="uil uil-user nav__icon"></i> About
-                        </a>
-                    </li>
-                   
-                    <li class="nav__item">
-                        <a href="gallery.html" class="nav__link">
-                            <i class="uil uil-estate nav__icon"></i>Gallery
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="contact.html" class="nav__link">
-                            <i class="uil uil-estate nav__icon"></i>Contact me
-                        </a>
-                    </li>
-               
-        </nav>
-    </header>
-    <br><br><br>  <br><br><br>
-<div class="gallery-container">
-    <div class="gallery-item">
-        <img src="image1.jpg" alt="Image 1">
-    </div>
-    <div class="gallery-item">
-        <img src="image2.jpg" alt="Image 2">
-    </div>
-    <div class="gallery-item">
-        <img src="image3.jpg" alt="Image 3">
-    </div>
-    <div class="gallery-item">
-        <img src="image4.jpg" alt="Image 4">
-    </div>
-</div>
-<style>
-    body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f8f8;
-}
+  <body>
+    <nav class="bg-transparent">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+          <div class="flex items-center">
+            <div class="hidden sm:block sm:ml-6">
+              <div class="flex space-x-4">
+                <a href="index.html" class="color-secondary hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                  <span class="text-green-400"></span>
+                  Home
+                </a>
+                <a href="about.html" class="color-secondary hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                  <span class="text-green-400"></span>
+                  About
+                </a>
+                <a href="gallery.html" class="color-secondary hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                  <span class="text-green-400"></span>
+                  Gallery
+                </a>
+                <a href="contact.html" class="color-secondary hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                  <span class="text-green-400"></span>
+                  Contact
+                </a>
+              </div>
+            </div>
+            <div class="block sm:hidden">
+              <a href="#home" class="px-3 py-2 rounded-md text-sm font-bold">
+                Home
+              </a>
+            </div>
+          </div>
+          <div class="absolute right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+            <!-- YOUR RESUME LINK HERE -->
+            <a target="_blank">
+                Portfolio
+              </a>
+          </div>
+        </div>
+      </div>
+    </nav>
 
-.gallery-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
-    padding: 20px;
-}
-
-.gallery-item {
-    overflow: hidden;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
-
-.gallery-item img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-.gallery-item:hover {
-    transform: scale(1.05);
-}
-
-</style>
-<script src="script.js"></script>
-</body>
+    <h1 class="font">Gallery</h1>
+      <section id="work" class="container mx-auto max-w-7xl w-4/5 py-12 lg:py-18 lg:text-left">
+        
+        <div class="gallery-section">
+         
+          <div class="gallery">
+              <img src="image1.jpg" alt="Image 1">
+              <img src="image2.jpg" alt="Image 2">
+              <img src="image3.jpg" alt="Image 3">
+              <img src="image4.jpg" alt="Image 3">
+          </div>
+      </div>
+      
+  </body>
 </html>
